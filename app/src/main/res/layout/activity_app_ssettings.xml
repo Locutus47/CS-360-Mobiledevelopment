@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".appSSettings">
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/swtDrkmd"
+        android:layout_width="227dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="72dp"
+        android:checked="true"
+        android:text="@string/dark_mode"
+        android:textColor="#00838F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewSettings" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/swtSMSAllow"
+        android:layout_width="231dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="44dp"
+        android:checked="true"
+        android:text="@string/sms_permission"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swtDrkmd" />
+
+    <TextView
+        android:id="@+id/textviewSettings"
+        android:layout_width="203dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="88dp"
+        android:text="@string/settings"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
