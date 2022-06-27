@@ -12,6 +12,11 @@ The first feature the app required was an sql database and a database handler th
 
 
 How did you approach the process of coding your app? What techniques or strategies did you use? How could those be applied in the future?
+
+I started by designing the various layouts and screens for the app. It's best to have some sort of backbone to build off of. Having the UI done is a good first step. I know all my component names and strings, so I can easily call them when it comes to writing the codee.
+
 How did you test to ensure your code was functional? Why is this process important and what did it reveal?
 Considering the full app design and development process, from initial planning to finalization, where did you have to innovate to overcome a challenge?
 In what specific component from your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
+
+Unfortunitly, I was unable to complete the project by the deadline to various life issues that occured. But that is one of the things to consider when tackling these projects, that you don't know the future. The best lesson is that you don't know what is ahead so you should work hard and work often. I do plan to finish the project as I don't like letting things go unfinished. It won't matter much for my educational endevours but it will still be something that I'll have more my portfolio.
